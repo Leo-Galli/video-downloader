@@ -1,6 +1,5 @@
 # Video Downloader
 
-[![Translation status](https://hosted.weblate.org/widgets/video-downloader/-/gui/svg-badge.svg)](https://hosted.weblate.org/engage/video-downloader/)
 
 Download videos from websites with an easy-to-use interface.
 Provides the following features:
@@ -12,19 +11,7 @@ Provides the following features:
 
 Based on [yt-dlp](https://github.com/yt-dlp/yt-dlp).
 
-## Installation
 
-<a href='https://flathub.org/apps/details/com.github.unrud.VideoDownloader'><img width='240' alt='Download on Flathub' src='https://flathub.org/assets/badges/flathub-badge-en.png'/></a>
-
-### Alternative installation methods
-
-  * [Snap Store](https://snapcraft.io/video-downloader)
-  * [Fedora](https://src.fedoraproject.org/rpms/video-downloader): `sudo dnf install video-downloader`
-  * [Arch User Repository](https://aur.archlinux.org/packages/video-downloader)
-
-## Translation
-
-We use [Weblate](https://hosted.weblate.org/engage/video-downloader/) to translate the UI, so feel free to contribute translations over there.
 
 ## Screenshots
 
@@ -44,17 +31,6 @@ List of additional automatic subtitles to download. The entry `all` matches all 
 
 The default is `[]`.
 
-#### Flatpak
-
-```
-flatpak run --command=gsettings com.github.unrud.VideoDownloader set com.github.unrud.VideoDownloader automatic-subtitles "['de','en']"
-```
-
-#### Snap
-
-```
-snap run --shell video-downloader -c 'gsettings "$@"' '' set com.github.unrud.VideoDownloader automatic-subtitles "['de','en']"
-```
 
 ## Debug
 
